@@ -1,0 +1,77 @@
+.
+├── README.md
+├── backend
+│   ├── Dockerfile
+│   ├── app
+│   │   ├── __init__.py
+│   │   ├── api
+│   │   │   ├── __init__.py
+│   │   │   ├── endpoints
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── auth.py
+│   │   │   │   ├── calculator.py
+│   │   │   │   ├── coin_comparison.py
+│   │   │   │   ├── portfolio.py
+│   │   │   │   ├── predict.py
+│   │   │   │   └── trends.py
+│   │   │   └── router.py
+│   │   ├── core
+│   │   │   ├── __init__.py
+│   │   │   ├── config.py
+│   │   │   ├── rate_limiter.py
+│   │   │   └── security.py
+│   │   ├── database.py
+│   │   ├── main.py
+│   │   ├── models.py
+│   │   └── services
+│   │       ├── __init__.py
+│   │       ├── accuracy_tracker.py
+│   │       ├── analytics_engine.py
+│   │       ├── coin_comparison.py
+│   │       ├── data_fetcher.py
+│   │       ├── ml_model.py
+│   │       ├── nlp_sentiment.py
+│   │       └── shap_explainer.py
+│   ├── cryptotrendx.db
+│   ├── models
+│   │   ├── README.md
+│   │   ├── xgb_classifier.pkl
+│   │   └── xgb_regressor.pkl
+│   └── requirements.txt
+├── frontend
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── src
+│   │   ├── components
+│   │   │   ├── AccuracyTracker.jsx
+│   │   │   ├── CorrelationHeatmap.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── PortfolioDashboard.jsx
+│   │   │   ├── PredictionCard.jsx
+│   │   │   ├── PriceChart.jsx
+│   │   │   ├── TrendTable.jsx
+│   │   │   └── WhatIfCalculator.jsx
+│   │   ├── pages
+│   │   │   ├── _app.jsx
+│   │   │   ├── ai_prediction_and_sentiment.jsx
+│   │   │   ├── coin
+│   │   │   │   └── [id].jsx
+│   │   │   ├── index.jsx
+│   │   │   ├── login.jsx
+│   │   │   ├── market-data
+│   │   │   │   ├── coins.jsx
+│   │   │   │   ├── compare.jsx
+│   │   │   │   └── trends.jsx
+│   │   │   └── signup.jsx
+│   │   ├── services
+│   │   │   ├── api.js
+│   │   │   └── websocket.js
+│   │   └── styles
+│   │       └── globals.css
+│   └── tailwind.config.js
+├── package-lock.json
+├── package.json
+└── project_structure.txt
+
+16 directories, 59 files
