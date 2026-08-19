@@ -11,7 +11,7 @@
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
 
-**CryptoTrendX Pro** is an end-to-end financial data science and full-stack web application designed to analyze multi-horizon cryptocurrency price trends (**60h, 100h, 500h, 1500h, 2000h+ lookbacks**). It leverages an ensemble **Machine Learning pipeline (XGBoost + SHAP Explainability)** fused with **NLP Sentiment Analysis** to deliver 48-hour directional price movement forecasts and target price ranges.
+**CryptoTrendX Pro** is an end-to-end financial data science and full-stack web application designed to analyze multi-horizon cryptocurrency price trends (**500h, 1500h, 2000h+ lookbacks**). It leverages an ensemble **Machine Learning pipeline (XGBoost + SHAP Explainability)** fused with **NLP Sentiment Analysis** to deliver 48-hour directional price movement forecasts and target price ranges.
 
 ---
 
